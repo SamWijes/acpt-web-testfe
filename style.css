@@ -1,0 +1,26 @@
+
+.container{
+    /* width: 1200px; */
+    /* height: 100vh; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    /* border: black solid 3px; */
+    /* flex-direction: row; */
+    
+}
+.card{
+    padding: 20px;
+    width: 350px;
+    border-radius: 15px;
+    border: black solid 2px;
+    transition: transform 1s ease;
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
