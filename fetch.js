@@ -21,30 +21,7 @@ function savePost() {
     .catch((error) => console.log("Error :", error));
 }
 const parentEl = document.querySelector(".container");
-// function getPosts() {
-//   fetch("https://jsonplaceholder.typicode.com/posts")
-//     .then((response) => response.json())
-//     .then((json) => {
-//       for (let i = 0; i < 50; i++) {
-//         const card = document.createElement("div");
-//         const userId = document.createElement("h4");
-//         const title = document.createElement("h4");
-//         const body = document.createElement("h4");
-//         userId.textContent = "User Id:" + json[i].userId;
-//         title.textContent = "Titile:" + json[i].title;
-//         body.textContent = "Body:" + json[i].body;
-    
-//         card.setAttribute("class", "card");
-//         card.appendChild(userId);
-//         card.appendChild(title);
-//         card.appendChild(body);
-//         parentEl.appendChild(card);
-//       }
 
-//       console.log(json);
-//     })
-//     .catch((error) => console.log("Error :", error));
-// }
 
 
 function getPosts() {
